@@ -18,12 +18,12 @@ En tidlig retur avslutter en metode med en gang svaret er kjent. Det kan reduser
 ## Test selv
 
 | crewCount | fuel | isHatchClosed | Returverdi |
-|---|---|---|---|
-| 3 | 50 | true | true |
-| 2 | 50 | true | false |
-| 3 | 49 | true | false |
-| 3 | 50 | false | false |
-| 4 | 80 | true | true |
+| --------- | ---- | ------------- | ---------- |
+| 3         | 50   | true          | true       |
+| 2         | 50   | true          | false      |
+| 3         | 49   | true          | false      |
+| 3         | 50   | false         | false      |
+| 4         | 80   | true          | true       |
 
 Noter forventet og faktisk resultat. Startkoden er ment å kunne bygges, men TODO-er kan gi ufullstendige resultater. En vellykket kompilering betyr ikke at oppgaven er løst.
 
