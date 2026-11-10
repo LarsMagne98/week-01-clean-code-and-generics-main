@@ -19,11 +19,11 @@ Refaktorering endrer struktur uten å endre avtalt oppførsel. En beregningsmeto
 ## Test selv
 
 | capacity | usedCapacity | Returverdi |
-|---|---|---|
-| 12 | 5 | 7 |
-| 20 | 8 | 12 |
-| 5 | 5 | 0 |
-| 0 | 0 | 0 |
+| -------- | ------------ | ---------- |
+| 12       | 5            | 7          |
+| 20       | 8            | 12         |
+| 5        | 5            | 0          |
+| 0        | 0            | 0          |
 
 For denne oppgaven er tallene ikke-negative, og brukt kapasitet er aldri større enn kapasiteten.
 
