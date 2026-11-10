@@ -1,7 +1,13 @@
-var x = new List<string> { "Ada", "Bo", "Cy" };
-// Skriv antallet.
-Console.WriteLine($"Crew: {x.Count}");
-// Oppdraget krever minst tre personer av sikkerhetshensyn.
-if(x.Count>=3){Console.WriteLine("Ready");}
-else{Console.WriteLine("Waiting");}
-// TODO: Forbedre lesbarheten uten å endre resultatet.
+var name = new List<string> { "Ada", "Bo", "Cy" };
+const int minRequiredCrew = 3;
+
+Console.WriteLine($"Crew: {name.Count}");
+
+if (name.Count >= minRequiredCrew)
+{
+    Console.WriteLine("Ready");
+}
+else
+{
+    Console.WriteLine("Waiting");
+}
