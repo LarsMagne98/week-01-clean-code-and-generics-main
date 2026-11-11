@@ -18,13 +18,13 @@ En samlingskopi har sin egen liste, men kopierer ikke automatisk objektene inni.
 
 ## Test selv
 
-| Handling | Forventning |
-|---|---|
-| Ny historikk, GetSnapshot | Tom liste |
-| Add("Launch"), Add("Orbit") | Count 2; kopi inneholder Launch, Orbit |
-| Fjern alle elementer fra kopien | Historikken har fortsatt Count 2 |
-| Hent ny kopi, legg til "Landing" i historikken | Kopien har Count 2; historikken har Count 3 |
-| Clear på historikken | Count 0; tidligere kopi har fortsatt Count 2 |
+| Handling                                       | Forventning                                  |
+| ---------------------------------------------- | -------------------------------------------- |
+| Ny historikk, GetSnapshot                      | Tom liste                                    |
+| Add("Launch"), Add("Orbit")                    | Count 2; kopi inneholder Launch, Orbit       |
+| Fjern alle elementer fra kopien                | Historikken har fortsatt Count 2             |
+| Hent ny kopi, legg til "Landing" i historikken | Kopien har Count 2; historikken har Count 3  |
+| Clear på historikken                           | Count 0; tidligere kopi har fortsatt Count 2 |
 
 Noter forventet og faktisk resultat. Startkoden er ment å kunne bygges, men TODO-er kan gi ufullstendige resultater. En vellykket kompilering betyr ikke at oppgaven er løst.
 
