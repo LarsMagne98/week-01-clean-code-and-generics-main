@@ -17,13 +17,13 @@ To klasser kan ha samme regler selv om de oppbevarer ulike typer. DRY handler om
 
 ## Test selv
 
-| Handling | Forventning |
-|---|---|
-| Legg til "Orbit" / 7 | Begge har Count 1 |
-| Søk etter "Orbit" / 7 | Begge gir true |
-| Søk etter "Landing" / 9 | Begge gir false |
-| Clear på begge | Begge har Count 0 og finner ikke gammel verdi |
-| Clear på tom beholder | Count forblir 0 |
+| Handling                | Forventning                                   |
+| ----------------------- | --------------------------------------------- |
+| Legg til "Orbit" / 7    | Begge har Count 1                             |
+| Søk etter "Orbit" / 7   | Begge gir true                                |
+| Søk etter "Landing" / 9 | Begge gir false                               |
+| Clear på begge          | Begge har Count 0 og finner ikke gammel verdi |
+| Clear på tom beholder   | Count forblir 0                               |
 
 Noter forventet og faktisk resultat. Startkoden er ment å kunne bygges, men TODO-er kan gi ufullstendige resultater. En vellykket kompilering betyr ikke at oppgaven er løst.
 

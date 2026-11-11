@@ -4,4 +4,11 @@ text.Add("Orbit");
 numbers.Add(7);
 Console.WriteLine(text.Contains("Orbit"));
 Console.WriteLine(numbers.Contains(7));
-// TODO: Kall Clear på begge og kontroller tilstanden.
+Console.WriteLine(text.Contains("Landing"));
+Console.WriteLine(numbers.Contains(9));
+text.Clear();
+Console.WriteLine(text.Count);
+numbers.Clear();
+Console.WriteLine(numbers.Count);
+text.Clear();
+Console.WriteLine(text.Count);
