@@ -18,13 +18,13 @@ En generisk klasse er nyttig når oppførselen er den samme for flere typer. Typ
 
 ## Test selv
 
-| Tilfelle | Forventning |
-|---|---|
-| Ny Recorder<int> | Count 0, Contains(7) false |
-| Legg til 7 to ganger | Count 2, Contains(7) true |
-| Clear | Count 0, Contains(7) false |
+| Tilfelle                  | Forventning                                     |
+| ------------------------- | ----------------------------------------------- |
+| Ny Recorder<int>          | Count 0, Contains(7) false                      |
+| Legg til 7 to ganger      | Count 2, Contains(7) true                       |
+| Clear                     | Count 0, Contains(7) false                      |
 | Tekstbeholder med "Orbit" | Contains("Orbit") true, Contains("orbit") false |
-| To beholdere | Endring i én påvirker ikke den andre |
+| To beholdere              | Endring i én påvirker ikke den andre            |
 
 Noter forventet og faktisk resultat. Startkoden er ment å kunne bygges, men TODO-er kan gi ufullstendige resultater. En vellykket kompilering betyr ikke at oppgaven er løst.
 
