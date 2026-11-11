@@ -1,3 +1,6 @@
 List<string> messages = new List<string> { "SOS", "ACK" };
-SignalPrinter.PrintStrings(messages);
-// TODO: Oppdater kallet og legg til heltall og en tom liste.
+List<int> numbers = new List<int> { 4, 8 };
+List<int> emptyList = new List<int> { };
+SignalPrinter.PrintItems(messages);
+SignalPrinter.PrintItems(numbers);
+SignalPrinter.PrintItems(emptyList);

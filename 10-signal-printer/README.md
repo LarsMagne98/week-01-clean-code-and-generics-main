@@ -18,11 +18,11 @@ En metode kan ha sin egen typeparameter selv om klassen ikke har det. I en signa
 
 ## Test selv
 
-| Inndata | Forventet utskrift |
-|---|---|
-| "SOS", "ACK" | SOS og ACK på hver sin linje |
-| 4, 8 | 4 og 8 på hver sin linje |
-| Tom List<int> | Ingen linjer fra metoden |
+| Inndata       | Forventet utskrift           |
+| ------------- | ---------------------------- |
+| "SOS", "ACK"  | SOS og ACK på hver sin linje |
+| 4, 8          | 4 og 8 på hver sin linje     |
+| Tom List<int> | Ingen linjer fra metoden     |
 
 Noter forventet og faktisk resultat. Startkoden er ment å kunne bygges, men TODO-er kan gi ufullstendige resultater. En vellykket kompilering betyr ikke at oppgaven er løst.
 
