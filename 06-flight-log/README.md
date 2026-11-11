@@ -11,20 +11,20 @@ Når en klasse eier en liste, kan den tilby noen få kontrollerte operasjoner. A
 ## Oppdrag
 
 1. Fullfør Add og Count i FlightLog. Alle strenger, også tom streng, er gyldige her.
-2. Bruk _entries.Count som eneste sannhet om antallet. Ikke innfør et tellerfelt.
+2. Bruk \_entries.Count som eneste sannhet om antallet. Ikke innfør et tellerfelt.
 3. La Clear tømme listen. List.Clear() er en bibliotekmetode som fjerner alle elementene.
 4. La samlingen forbli privat. Test to separate logger.
 
 ## Test selv
 
-| Handling | Forventet Count |
-|---|---|
-| Ny logg | 0 |
-| Add("Launch") | 1 |
-| Add("Orbit") | 2 |
-| Clear() | 0 |
-| Clear() igjen | 0 |
-| Add("") | 1 |
+| Handling      | Forventet Count |
+| ------------- | --------------- |
+| Ny logg       | 0               |
+| Add("Launch") | 1               |
+| Add("Orbit")  | 2               |
+| Clear()       | 0               |
+| Clear() igjen | 0               |
+| Add("")       | 1               |
 
 En annen, ny logg skal fortsatt ha Count 0.
 
