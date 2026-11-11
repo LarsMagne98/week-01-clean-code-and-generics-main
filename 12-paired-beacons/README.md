@@ -19,13 +19,13 @@ Nå skal du bruke kjente konsepter i en ny sammenheng. Et par består av to verd
 
 ## Test selv
 
-| Par | Forventning |
-|---|---|
-| "North", "South" | First er North, Second er South; ShowPair skriver begge |
-| 12, 24 | First er 12, Second er 24; ShowPair skriver begge |
-| To Beacon-objekter med navn A og B | First.Name er A, Second.Name er B |
-| Nytt par etter første par | Første par er uendret |
-| Forsøk å tilordne First fra Program.cs | Kompileringsfeil; fjern feilkallet før levering |
+| Par                                    | Forventning                                             |
+| -------------------------------------- | ------------------------------------------------------- |
+| "North", "South"                       | First er North, Second er South; ShowPair skriver begge |
+| 12, 24                                 | First er 12, Second er 24; ShowPair skriver begge       |
+| To Beacon-objekter med navn A og B     | First.Name er A, Second.Name er B                       |
+| Nytt par etter første par              | Første par er uendret                                   |
+| Forsøk å tilordne First fra Program.cs | Kompileringsfeil; fjern feilkallet før levering         |
 
 Noter forventet og faktisk resultat. Startkoden er ment å kunne bygges, men TODO-er kan gi ufullstendige resultater. En vellykket kompilering betyr ikke at oppgaven er løst.
 
